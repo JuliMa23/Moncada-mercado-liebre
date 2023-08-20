@@ -1,0 +1,224 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family : 'Roboto', sans-serif;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.bg-blue{
+    background-color: #03264C;
+}
+
+.bg-yellow{
+    background-color:#EAC926;
+}
+
+.bg-cyan{
+    background-color: #1259c3;
+}
+
+.bg-dark-grey{
+    background-color:#666;
+}
+
+.bg-light-grey{
+    background-color: #ebebeb;
+}
+
+.bg-dark.green{
+    background-color:#39b54a;
+}
+
+.w-50{
+    width: 50%;
+}
+
+.vw-90{
+
+    width: 90vw;
+}
+
+.p-1 {
+   pad : 8px; 
+}
+
+.p-15{
+    pad: 15px;
+}
+
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mb-10{
+    margin-bottom: 10px;
+}
+
+.bt-1{
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+
+.border-grey{
+    border-color: #ebebeb;
+}
+
+.font-body {
+    font-size : 12px; /*CUERPO TEXTO*/
+    color :grey;
+}
+
+.font-sale {
+    font-size : 16px;
+    color : green;
+}
+
+.font-price {
+    font-size : 18px;
+}
+
+.font-headlines {
+    font-size : 24px;
+}
+
+.properties-image {
+    width: 100%;
+    margin: auto;
+
+}
+
+.properties-icon {
+    font-size : 2em;
+    margin-bottom: 10px;
+    text-align: center;  
+}
+
+.text-footer{
+    text-align: center;
+    color:grey;
+    margin-bottom: 10px;
+}
+
+.text-cpr{
+    text-align: center;
+    color:black;
+    margin-bottom: 10px;
+}
+
+
+.product-delivery-icon{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+}
+
+.product-desc-box {
+    position: relative;
+}
+
+.burger-menu {
+    display: block;
+}
+
+
+nav ul {
+    display: none;
+}
+
+nav.active ul {
+    display: block;
+}
+
+.burger-menu i{
+    padding: 10px 12px 10px 12px ;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 10px;
+    font-size: 25px;
+    display: block;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo, .search-bar {
+    flex: 1 0 100%;
+    padding: 10px;
+}
+
+.logo img{
+    width : 50%;
+}
+
+.search-bar input{
+    width : 50%;
+
+}
+
+
+/*Tablet*/
+ 
+@media(min-width : 520px){
+    .md-product-shadow {
+        box-shadow : 0px 0px 10px rgb( 100 , 100 , 100 );
+    }
+
+    .logo, .search-bar {
+        flex: 1;
+        max-width: 50%;
+    }
+
+    p {
+        flex: 1;
+        max-width: 100%;
+    }
+
+    .burger-menu {
+        display: none;
+        cursor: pointer;
+    }
+}
+
+    /*todo: esconder descripción */
+
+
+
+/*Desktop*/
+/* 
+@media(min-width: 1280){
+
+} */
