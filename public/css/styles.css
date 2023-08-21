@@ -8,6 +8,18 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+    
+}
+
+header{
+    background-color: #EAC926;
+    font-size:16px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+
 }
 
 /*Colors*/
@@ -19,20 +31,12 @@ body {
     background-color: #03264C;
 }
 
-.bg-yellow {
-    background-color: #EAC926;
-}
-
 .bg-cyan {
     background-color: #1259c3;
 }
 
 .bg-dark-grey {
     background-color: #666;
-}
-
-.bg-light-grey {
-    background-color: #ebebeb;
 }
 
 .bg-dark.green {
@@ -75,34 +79,17 @@ body {
     border-top-width: 1px;
 }
 
-.center {
-    text-align: center;
-    padding: 20px;
-}
 
 
 /*Header*/
 
-.header {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: center;
-    padding: 20px 20px 0 20px;
-    gap: 15px;
-}
 
-nav ul {
+#nav {
     display: none;
 }
 
-nav.active ul {
-    display: block;
-}
 
 .search-bar {
-    position: relative;
     width: 50%;
 }
 
@@ -147,6 +134,10 @@ nav.active ul {
 
 
 /*Main*/
+main{
+    background-color: #ebebeb;
+}
+
 .font-body {
     font-size: 12px;
     /*CUERPO TEXTO*/
@@ -381,27 +372,37 @@ nav.active ul {
 @media(min-width: 1025px){
 
     
-.initial {
-    display: grid;
-    grid-template-columns: 33.3% 33.3% 33.3%;
+    .initial {
+        display: grid;
+        grid-template-columns: 33.3% 33.3% 33.3%;
 
-}
+    }
 
-.footer{
-    display : grid;
-    grid-template-rows: 50% 50%;
-}
+    .footer{
+        display : grid;
+        grid-template-rows: 50% 50%;
+    }
 
-.properties-footer{
-    display : grid;
-    grid-template-columns: 33.3% 33.3% 33.3%;
+    .properties-footer{
+        display : grid;
+        grid-template-columns: 33.3% 33.3% 33.3%;
 
-}
-.burger-menu {
-    cursor: pointer;
-    display: none;
-    align-content: center;
-    justify-content: center;
+    }
+    .burger-menu {
+        display: none;
+    }
+
+    #nav{
+        display: block ;
+        text-align: center;
+
+    }
+    a{
+        padding: 5px;
+    }
+
+.container-fluid{
+    padding: 5px;
 
 }
 

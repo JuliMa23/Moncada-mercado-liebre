@@ -1,0 +1,121 @@
+.fullName label{
+    font-size: 16px;
+  }
+  .fullName input{
+    font-size: 16px;
+    border-radius: 10px;
+    border-style: none;
+    margin-top: 20px;
+    padding: 5px;
+    width: 100%;
+  }
+  .dateOfBirth p{
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+  }
+
+  .dateOfBirth input{
+    font-size: 16px;
+    border-radius: 10px;
+    border-style: none;
+    color: #666;
+    padding: 5px;
+    width: 100%;
+    background-color: white;
+  }
+  
+  .adress input{
+    font-size: 16px;
+    border-radius: 10px;
+    border-style: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+    width: 100%;
+  }
+  
+  .userProfile{
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-left: -5px;
+  }
+
+  .prof{
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+  }
+
+  .personBuyerSeller{
+    display: inline-block;
+    margin-right: 5px;
+  }
+  
+  .logUser{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;  
+  }
+
+  .logUser a{
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+  }
+  
+  .preferences{
+    font-size: 16px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: -95px;
+  }
+
+  .userInterest{
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+  }
+  
+  .picture input{
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .tapToRegister{
+    padding: 10px;
+    background-color: #1259c3;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: 50%;
+  }
+  .tapToReset{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #1259c3;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: 50%;
+  }
+
+  #form-register{
+
+    display: grid;
+    justify-content:center ;
+    align-items: center;
+    text-align: center;
+    
+
+
+  }

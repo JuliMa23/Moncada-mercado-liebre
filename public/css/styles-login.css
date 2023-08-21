@@ -1,0 +1,66 @@
+
+form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bg-light-grey {
+    background-color: #ebebeb;
+}
+
+  .user label{
+    font-size: 16px;
+  }
+  .user input{
+    font-size: 16px;
+    border-radius: 10px;
+    border-style:solid ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+    width: 100%;
+  }
+  .pass label {
+    font-size: 16px;
+  }
+  .pass input{
+    font-size: 16px;
+    border-radius: 10px;
+    border-style: solid;
+    margin-bottom: 20px;
+    padding: 5px;
+    width: 100%;
+  }
+ 
+  .tapToLogin{
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #1259c3;
+    color: none;
+    border: none;
+    border-radius: 10px;
+    width: 191.82px;
+  }
+  
+  .createUser{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;  
+  }
+  .createUser a{
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px;
+    
+
+  }

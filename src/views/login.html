@@ -10,51 +10,154 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    </link>
     <link rel="stylesheet" hre="/css/normalize.css" />
+    <link rel="stylesheet" href="/css/styles-login.css" />
     <link rel="stylesheet" href="/css/styles.css" />
 
     <title>Login - Juliana Moncada</title>
 </head>
+<header>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="logo-img">
+                    <h1 href="/">
+                        <a>
+                            <img src="/images/logo-mercado-liebre.svg" class="img-fluid" alt="logo-mercado-liebre">
+                        </a>
+                    </h1>
+                </div>
 
+            </div>
+            <div class="col-sm-4">
+                <form class="d-flex" aling="right" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar productos, marcas y más..."
+                        aria-label="Buscar productos"></input>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </form>
+
+            </div>
+            <div class="col-sm-4 
+            " aling="center">
+                <p><i class="fa-solid fa-hand-holding-dollar"></i> Comprá en cuotas y sin tarjeta de crédito</p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Menú navegación -->
+
+    <div class="container-fluid" id="nav">
+        <div class="row">
+            <div class="col-sm-6" aling="left">
+                <a> Todos los productos</a>
+                <a> Ofertas </a>
+                <a> Tiendas Oficiales </a>
+                <a> Vender </a>
+                <a> Ayuda </a>
+            </div>
+            <div class="col-sm-6" aling="right">
+                <a> Creá tu cuenta <i class="fa-regular fa-id-card"></i> </a>
+                <a> Ingresá <i class="fa-solid fa-right-to-bracket"></i> </a>
+                <a> Mis compras <i class="fa-solid fa-basket-shopping"></i> </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Menú hamburguesa -->
+    <div class="burger-menu " onclick="toggleMenu()">
+        <i class="fas fa-bars bg-cyan "></i>
+    </div>
+
+</header>
 
 </header>
 
 <main>
+    <div class="bg-light-grey">
+        <form action="/">
 
-    <form action="/">
+            <div class="user">
+                <label for="user-name"></label>
+                <input type="text" name="user-name" id="user-name" placeholder="Nombre de usuario" required
+                    minlength="5" maxlength="15">
+            </div>
 
-        <div class="user">
-            <label for="user-name"></label>
-            <input type="text" name="user-name" id="user-name" placeholder="Nombre de usuario" required minlength="5"
-                maxlength="10">
-        </div>
+            <div class="pass">
+                <label for="pass-Word"></label>
+                <input type="password" name="pass-Word" id="pass-Word" placeholder="Ingresá tu contraseña" required
+                    minlength="5" maxlength="15">
+            </div>
 
-        <div class="password">
-            <input type="password" name="password" id="password" placeholder="Ingresá tu contraseña" required
-                minlength="8" maxlength="15">
-        </div>
+            <button class="tapToLogin" type="submit">Enviar</button>
+
+        </form>
 
 
-        <button class="button-Login" type="submit">Enviar</button>
+        <section class="createUser">
+            <a href="register.html">¿Primera vez? Creá tu cuenta <i class="fa-solid fa-address-card"></i></a>
+        </section>
 
-    </form>
-
-    <section class="createUser">
-        <a href="register.html">¿Primera vez? Creá tu cuenta <i class="fa-solid fa-address-card"></i></a>
-    </section>
-
+    </div>
 
 
 </main>
 
-<footer>
+<footer class="footer">
+    <div class="container-fluid">
+
+        <div class="properties-footer">
+            <div>
+                <div class="properties-icon"><i class="fa-solid fa-gift" style="color : #1259c3"></i></div>
+
+                <div class="text-footer">
+                    <b>
+                        <p>Pagá con tarjeta o en efectivo</p>
+                    </b>
+                    <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
+                        puntos de pago. ¡Y siempre es seguro!</p>
+                </div>
+
+            </div>
+
+
+
+            <div>
+                <div class="properties-icon"><i class="fa-solid fa-credit-card" style="color : #1259c3"></i></div>
+
+                <div class="text-footer">
+                    <b>
+                        <p>Envío gratis desde $ 2.500</p>
+                    </b>
+                    <p>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de
+                        productos. Es un beneficio de Mercado Puntos.</p>
+                </div>
+
+            </div>
+
+            <div>
+                <div class="properties-icon"><i class="fa-solid fa-user-shield" style="color : #1259c3"></i></div>
+
+                <div class="text-footer">
+                    <b>
+                        <p>Seguridad, de principio a fin</p>
+                    </b>
+                    <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
+                        porque estás siempre protegid@.</p>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div>
+            <div class="text-cpr"><b>Copyright © 1999-2020 MercadoLiebre S.R.L.</b></div>
+        </div>
+
+    </div>
 
 </footer>
-
-
-
-<body>
-
-</body>
 
 </html>
