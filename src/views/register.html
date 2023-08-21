@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" hre="/css/normalize.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+
+    <title>Registro - Juliana Moncada</title>
+</head>
+
+
+</header>
+
+<main>
+
+    <div class ="center">
+    <form action="/">
+
+            
+        <div>
+            <div class="name-register">
+                <label for="name-lastname"></label>
+                <input type="text" name="name-lastname" id="name-lastname" placeholder="Nombre y apellido" required
+                    minlength="5" maxlength="35">
+            </div>
+    
+            <div class="user">
+                <label for="user-name"></label>
+                <input type="text" name="user-name" id="user-name" placeholder="Nombre de usuario" required minlength="5"
+                    maxlength="10">
+            </div>
+    
+            <div class="birthday-register">
+                <p>Fecha de nacimiento</p>
+                <input type="date" name="birth-date" value="DD-MM-YYYY" min="1900-01-01" max="2005-08-19">
+            </div>
+    
+            <div class="adress-register">
+                <input type="text" name="adress" id="adress" placeholder="Dirección" required minlength="2" maxlength="50">
+            </div>
+    
+    
+            <div>
+                <label class="profile-register">
+                    <p class="prof">Perfil del usuario</p>
+                    <input type="radio" name="profile" value="buyer">
+                    <p class="personBuyerSeller">Comprador</p>
+                    <input type="radio" name="profile" value="seller">
+                    <p class="personBuyerSeller">Vendedor</p>
+                </label>
+            </div>
+    
+    
+    
+            <div>
+                <label>
+                    <p class="interest-register">Intereses</p>
+                    <p><label class="prefSpace" for="option1"><input type="checkbox" id="preferences" name="preferences"
+                                value="Electro"> Electro</label></p>
+                    <p><label class="prefSpace" for="option1"><input type="checkbox" id="preferences" name="preferences"
+                                value="Moda"> Moda</label></p>
+                    <p><label class="prefSpace" for="option1"><input type="checkbox" id="preferences" name="preferences"
+                                value="Hogar"> Hogar</label></p>
+                    <p><label class="prefSpace" for="option1"><input type="checkbox" id="preferences" name="preferences"
+                                value="Juguetería"> Juguetería</label></p>
+                    <p><label class="prefSpace" for="option1"><input type="checkbox" id="preferences" name="preferences"
+                                value="Vida sana"> Vida sana</label></p>
+                </label>
+    
+            </div>
+    
+    
+            <div class="file-register">
+                <input type="file" name="profilePicture" accept=".jpg">
+            </div>
+    
+    
+            <div class="password">
+                <input type="password" name="password" id="password" placeholder="Ingresá tu contraseña" required
+                    minlength="8" maxlength="15">
+            </div>
+    
+            <div class="password">
+                <input type="password" name="password" id="password" placeholder="Confirmá tu contraseña" required
+                    minlength="8" maxlength="15">
+            </div>
+
+
+
+        <button class="button-register" type="submit">Enviar</button>
+
+
+        <button class="button-reset" type="reset">Borrar</button>
+            
+        </div>
+
+    </form>
+
+    <section class="login-user">
+        <a href="login.html">¿Ya tenés una cuenta? Ingresá aquí<i class="fa-solid fa-right-to-bracket"></i></a>
+    </section>
+
+    </div>
+
+
+</main>
+
+<footer>
+
+</footer>
+
+
+
+<body>
+
+</body>
+
+</html>
