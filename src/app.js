@@ -5,7 +5,7 @@ const path= require ("path")
 const app= express()
 app.use(express.static(path.join(__dirname,'../public')))
 
-const PORT = 3001;
+const PORT = process.env.PORT;
 
 app.listen( PORT, ()=> {
     console.log(`El servidor se ha iniciado correctamente en el puerto ${PORT}`)
